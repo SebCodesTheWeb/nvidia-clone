@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text} from '@chakra-ui/react'
+import {Link} from '@chakra-ui/react'
 
 interface NavItemProps {
     name: string,
@@ -8,6 +8,6 @@ interface NavItemProps {
 
 export const NavItem: React.FC<NavItemProps> = ({name, long=true}) => {
         return (<>
-            <Text color='gray.600' fontWeight={long? 'semibold' : 'normal'} fontSize={long? 'lg' : 'md'} textTransform={long? 'capitalize' : 'uppercase'}>{name}</Text>
+            <Link color='gray.600' fontWeight={long? 'semibold' : 'normal'} fontSize={long? 'lg' : 'md'} textTransform={long? 'capitalize' : 'uppercase'}>{name}</Link>
         </>);
 }

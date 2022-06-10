@@ -11,7 +11,7 @@ export const Card: React.FC<CardProps> = ({heading, text, img}) => {
     const [activated, setActivated] = useState(false);
 
 
-        return (<Box w={300} h={300} bgColor='white' rounded={3} boxShadow={activated? 'xl' : 'md'}>
+        return (<Box w={300} h={300} bgColor='white' rounded={3} boxShadow={activated? '2xl' : 'md'}>
             <VStack align='left'>
                 <AspectRatio w={300} ratio={16 / 9}>
                 <Image 

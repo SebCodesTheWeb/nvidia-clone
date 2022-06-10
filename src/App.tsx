@@ -8,7 +8,7 @@ import {MainFooter} from './Footer/MainFooter'
 export const App = () => (
   <ChakraProvider theme={theme}>
     <HStack w='full' h='full' justify='center'>
-      <Box maxW={2000} h='100vh' bgColor='black'>
+      <Box w='full' maxW='1920px' h='100vh' bgColor='black'>
         <MainNav />
         <MainBanner />
         <MainSection />
