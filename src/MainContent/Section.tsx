@@ -34,7 +34,7 @@ export const Section: React.FC<SectionProps> = ({category, heading, subheading,}
             <VStack spacing={10}>
                 <Heading color='#76b900' fontWeight='thin' letterSpacing={2} textTransform='uppercase' >{heading}</Heading>
                 {isEmpty(subheading)? 0 : <Text>{subheading}</Text>}
-                <Wrap spacing={10} maxW='1400px' justify='center'>
+                <Wrap spacing={10} px={0} justify='center' maxW={1600}>
                     {data.map(card => displayCard(card, category))}
                 </Wrap>
             </VStack>

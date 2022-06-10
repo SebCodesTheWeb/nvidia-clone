@@ -9,9 +9,9 @@ interface FooterColumnProps {
 
 export const FooterColumn: React.FC<FooterColumnProps> = ({heading, content}) => {
         return (
-        <VStack align='left' w={400} spacing={3}>
+        <VStack align='left' maxW={300} spacing={3}>
                 <Heading color='white' size='lg' >{heading}</Heading>
-                <Divider />
+                <Divider pr={10}/>
                 {content.map(link => <FooterLink text={link} />)}
         </VStack>);
 }
