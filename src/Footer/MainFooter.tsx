@@ -1,7 +1,6 @@
 import React from 'react'
-import {VStack, HStack, Image} from '@chakra-ui/react'
+import {VStack, HStack} from '@chakra-ui/react'
 import {FooterColumn} from './FooterColumn'
-import {NavItem} from '../Nav/NavItem'
 
 interface MainFooterProps {
 
