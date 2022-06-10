@@ -1,5 +1,5 @@
 import React from 'react'
-import {HStack, VStack, Box, Heading, Text, Button} from '@chakra-ui/react'
+import {VStack, Box, Heading, Text, Button} from '@chakra-ui/react'
 
 interface HeroProps {
     heading: string,

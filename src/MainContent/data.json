@@ -1,0 +1,74 @@
+[
+    {
+        "img" : "./img/nvidia_recomends.jpg",
+        "heading" : "NVIDIA rekommenderar",
+        "text": "De bästa erbjudandena på bärbara datorer. Köp nu.",
+        "category": "buy"
+    },
+    {
+        "heading": "Grafikkort i GeForce RTX-series",
+        "text": "Nu är NVIDIA GeForce RTX 30-series tillbaka i lager",
+        "img": "./img/grafikkort_i_geforce.jpg",
+        "category": "buy"
+    },
+    {
+        "heading": "GFN Thursday",
+        "text": "Se vad du kan streama på GeForce NOW den här veckan",
+        "img": "./img/gfn_thursday.jpg",
+        "category": "buy"
+    },
+    {
+        "heading": "I NVIDIA STUDIO",
+        "text": "Vi firar fantastiska konstnärer, inspirerande konst och publicerar nyheter för innehållskapare varje vecka",
+        "img": "./img/i_nvidia_studio.jpg",
+        "category": "buy"
+    },
+    {
+        "heading": "Autonoma Maskiner",
+        "text": "Våra autonoma maskiner har lösningen till alla dina problem!",
+        "img": "./img/autonoma.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Moln och Datacenter",
+        "text": "Molnbaserad service för framtiden",
+        "img": "./img/moln_och_datacenter.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Design och Professionell Visualisering",
+        "text": "Unlocka ditt konstnärliga jag i en ny värld av kreativitet",
+        "img": "./img/design_och_pro.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Sjukvård och Biovetenskap",
+        "text": "I pandemitider är det extra viktigt att vörda för familjen. Vi hjälper dig.",
+        "img": "./img/gfn_thursday.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Högpresterande databehandling",
+        "text": "Våra allra senaste kvantdatorer sköter jobbet.",
+        "img": "./img/nvidia_recomends.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Nätverkshantering (Mellanox)",
+        "text": "Nätverk, vi kopplar ihop dig, och alla andra, för en enad värld.",
+        "img": "./img/hero.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Självkörande Bilar",
+        "text": "Vi är industriledande inom bilbranschen. Från A till B, utan att röra ratten.",
+        "img": "./img/grafikkort_i_geforce.jpg",
+        "category": "enterprise"
+    },
+    {
+        "heading": "Sebastian Delgado",
+        "text": "A remarkable man, for a remarkable time.",
+        "img": "./img/nvidia_logo.svg",
+        "category": "enterprise"
+    }
+]
